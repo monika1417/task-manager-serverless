@@ -1,0 +1,11 @@
+# ────────────────────────────────────────────────
+#  Lambda Microservice — Python Dependencies
+#  Install with:
+#    pip install -r requirements.txt -t ./package
+# ────────────────────────────────────────────────
+
+pymongo[srv]==4.7.2      # MongoDB driver  (includes dnspython for mongodb+srv:// URIs)
+bcrypt==4.1.3            # Password hashing (same as Django backend)
+PyJWT==2.8.0             # JWT encode / decode (same algorithm as Django backend)
+boto3==1.34.84           # AWS SDK — S3 pre-signed URLs (already available in Lambda runtime, pinned for local build)
+dnspython==2.6.1         # Required by pymongo[srv] for Atlas connection strings
