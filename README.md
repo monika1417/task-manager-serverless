@@ -12,20 +12,6 @@ http://taskmgr-frontend.s3-website-us-east-1.amazonaws.com/login
 
 ---
 
-## 🔗 Backend API (AWS API Gateway)
-
-Example endpoints:
-
-POST /api/auth/login
-POST /api/auth/register
-GET /api/tasks
-POST /api/tasks/create
-
-Base API URL
-
-https://3qk08knqsb.execute-api.us-east-1.amazonaws.com
-
----
 
 ## 🧠 Architecture
 
@@ -38,6 +24,7 @@ AWS Lambda Microservices
 MongoDB Atlas Database
 ⬇
 Amazon S3 for File Uploads (Presigned URLs)
+
 
 ---
 
